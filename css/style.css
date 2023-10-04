@@ -1,0 +1,65 @@
+h1{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    text-align: center;
+}
+body{
+    background-color: white;
+    background-image:url(../img/fresasmoras.jpg);
+}
+.colorNuevo{
+    color:blueviolet;
+    
+}
+.colorCorreccion{
+    color: blueviolet;
+}
+#footerTabla{
+    text-shadow: 2px 2px 4px black;
+}
+.amarillo{
+    height: 200px;
+    background-color: #D39CE3;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 10px rgb(0, 255, 0) solid;
+    border-radius: 25px;
+    border-top-width:solid;
+    border-top-left-radius:0px ;
+    border-bottom-right-radius: 0px;
+}
+.rojo{
+    background-color: red;
+    height: 1300px;
+    margin-bottom: 30px;
+    border: 10px black  solid;
+    border-radius: 25px;
+    border-top-width:solid;
+    border-top-left-radius:0px ;
+    border-bottom-right-radius: 0px;
+    
+}
+.verde{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    left: 1700px;
+    top: 0px;
+}
+@media(max-width:1000px){
+    .amarillo{
+        background-color: rgb(207, 109, 231);
+        border-color: palevioletred;
+        transition: background-color 4.5s ease;
+    }
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width:600px){
+    .amarillo{
+        background-color: aquamarine;
+    }
+}
